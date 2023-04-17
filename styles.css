@@ -249,6 +249,52 @@ nav .navbar-nav {
   text-align: center;
 }
 
+#skills h2 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+  text-shadow: 0px 2px 0px #000000;
+  text-decoration: underline;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+.skill-icon:last-of-type {
+  margin-right: 0;
+}
+
+.skill-icon i {
+  font-size: 3rem;
+  color: rgb(165, 92, 64);
+}
+
+.skill-icon-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
 #contact h2 {
   margin-top: 3rem;
   text-align: center;
