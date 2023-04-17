@@ -371,16 +371,41 @@ input[type="submit"]:hover {
   background-color: #c27447;
 }
 
+/* styles.css */
+
+/* Footer section */
 .footer-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #586F5F;
+  color: #fff;
+  padding: 20px;
 }
 
+.footer-text {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
+/* Social icons */
 .footer-social a {
+  color: #c27447;
   margin-left: 10px;
 }
 
+.footer-social a:hover {
+  color: #fff;
+}
 
+.footer-text {
+  text-align: center;
+}
 
 /* Mobile and Tablet */
 @media screen and (max-width: 991px) {
